@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    color: #1DACFF;
+}
+
+.header-logo-img{
+    position: absolute;
+    width: 88px;
+    margin: auto;
+    z-index:15;
+}
+
+.container-head{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-form{
+    align-items: center;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.btn{
+    font-size: 25px;
+    box-shadow: 4px 4px 8px 1px #1DACFF, -4px -4px 8px 1px #E6209A;
+}
