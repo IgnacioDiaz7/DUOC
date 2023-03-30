@@ -3,12 +3,7 @@ h1{
     color: #1DACFF;
 }
 
-.header-logo-img{
-    position: absolute;
-    width: 88px;
-    margin: auto;
-    z-index:15;
-}
+
 
 .container-head{
     width: 100%;
