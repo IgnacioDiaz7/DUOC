@@ -3,29 +3,16 @@ h1{
     color: #1DACFF;
 }
 
-.container-form{
-    justify-content: center;
-    align-items: center;
-}
-
 label{
     font-size: 25px;
 }
-form{
-    display: block;
-    justify-content: center;
-    align-content: center;
 
+.form-check-label{
+    font-size: 15px;
 }
 
 .btn{
     font-size: 20px;
     box-shadow: 4px 4px 8px 1px #1DACFF, -4px -4px 8px 1px #E6209A;
     background-color: white;
-    
-}
-
-
-.form-check-label{
-    font-size: 15px;
 }
