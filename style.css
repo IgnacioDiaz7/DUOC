@@ -60,3 +60,17 @@ h6{
     color: rgb(148, 146, 146);
 }
 
+h1{
+    text-align: center;
+    color: #1DACFF;
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+p{
+    text-align: start;
+    margin-bottom: 20px;
+    color: #E6209A;
+    font-size: 20px;
+}
+
