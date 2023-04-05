@@ -36,7 +36,7 @@ a{
 
 .carousel-control-prev-icon{
     
-    background-color: #E6209A;
+    background-color: #C1FF72;
     padding: 15px;
     border-radius: 100%;
 }
@@ -53,7 +53,7 @@ footer{
 }
 
 .card-link {
-    color: #E6209A;
+    color: #C1FF72;
 }
 
 h6{
@@ -70,7 +70,7 @@ h1{
 p{
     text-align: start;
     margin-bottom: 20px;
-    color: #E6209A;
+    color: #C1FF72;
     font-size: 20px;
 }
 
