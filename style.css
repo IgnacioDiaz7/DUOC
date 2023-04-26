@@ -2,6 +2,16 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
+body{
+    padding-top: 100px;
+}
+header{
+    top:0;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+}
+
 
 
 .brand img{
@@ -70,7 +80,7 @@ h1{
 p{
     text-align: start;
     margin-bottom: 20px;
-    color: #C1FF72;
+    color: #88bc43;
     font-size: 20px;
 }
 
