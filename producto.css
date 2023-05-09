@@ -48,6 +48,17 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+.contenedor{
+    max-width: 1200px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /* oculto lo que queda fuera del .contenedor */
+    contain: paint;
+}
+
 /* seccion carrito */
 .carrito{
     background-color: #fff;
