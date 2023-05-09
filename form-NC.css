@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    color: #1DACFF;
+}
+
+label{
+    font-size: 25px;
+}
+
+.form-check-label{
+    font-size: 15px;
+}
+
+.btn{
+    font-size: 20px;
+    box-shadow: 4px 4px 8px 1px #1DACFF, -4px -4px 8px 1px #C1FF72;
+    background-color: white;
+}
