@@ -29,3 +29,14 @@ form{
 .form-check-label{
     font-size: 15px;
 }
+
+a{
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.brand img{
+    width: 15%;
+}
+
