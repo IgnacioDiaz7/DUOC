@@ -24,3 +24,8 @@ h1{
     font-size: 25px;
     box-shadow: 4px 4px 8px 1px #1DACFF, -4px -4px 8px 1px #C1FF72;
 }
+
+body{
+    width: 100%;
+    height: 100%;
+}
