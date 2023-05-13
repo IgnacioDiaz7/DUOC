@@ -1,0 +1,9 @@
+a{
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+a:hover{
+    color: #C1FF72;
+}
