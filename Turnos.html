@@ -56,7 +56,7 @@
   <div class="container">
     <h1>Farmacias en Turno</h1>
 
-    <button class="btn btn-info mt-5 mb-5" onclick="traer()">Ver Farmacias</button>
+    <button type="button" class="btn btn-info mt-5 mb-5" id="EnviarTurno">Ver Farmacias</button>
 
     <div class="row">
       <table class="table table-dark">
@@ -92,45 +92,6 @@
   </div>
 
 
-  <script>
-    var farmacias = document.querySelector('#farmacias')
-
-    function traer(){
-      fetch('tabla.json')
-        .then( res => res.json())
-        .then (datos => {
-          //console.log(datos)
-          tabla(datos)
-        })
-    }
-
-    function tabla(datos){
-      //console.log(datos)
-      farmacias.innerHTML = ''
-      for(let valor of datos){
-        //console.log(valor.local_nombre)
-        farmacias.innerHTML += `
-
-
-        <tr>
-            <th scope="row"> ${valor.fecha}</th>
-            <td> ${ valor.local_nombre} </td>
-            <td> ${ valor.comuna_nombre} </td>
-            <td> ${ valor.localidad_nombre} </td>
-            <td> ${ valor.local_direccion} </td>
-            <td> ${ valor.funcionamiento_hora_apertura} </td>
-            <td> ${ valor.funcionamiento_hora_cierre} </td>
-            <td> ${ valor.local_telefono} </td>
-            <td> ${ valor.funcionamiento_dia} </td>
-          </tr>
-        
-        `
-        
-      }
-    }
-  </script>
-
-
 
 
 
@@ -147,7 +108,7 @@
     integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
     crossorigin="anonymous"></script>
 
-  <script type="text/javascript" src="Farm-Turno.js"></script>
+  <script type="text/javascript" src="Turnos.js"></script>
 
 </body>
 
