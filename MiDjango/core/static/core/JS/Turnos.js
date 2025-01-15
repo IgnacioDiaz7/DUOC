@@ -1,4 +1,5 @@
 $("#EnviarTurno").click(function(){
+    $("#farmacias").empty();
     $.get("https://midas.minsal.cl/farmacia_v2/WS/getLocalesTurnos.php",
     function(data){
         console.log(data.length);

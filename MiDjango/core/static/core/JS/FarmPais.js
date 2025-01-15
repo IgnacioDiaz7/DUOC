@@ -1,4 +1,5 @@
 $("#EnviarPais").click(function(){
+    $("#farmacias").empty();
     $.get("https://midas.minsal.cl/farmacia_v2/WS/getLocales.php",
     function(data){
         console.log(data.length);
